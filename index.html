@@ -200,7 +200,17 @@
         
         
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-
+   
     </div>
+    <script>document.addEventListener("DOMContentLoaded", function (event) {
+        const list = document.getElementsByClassName('burger')
+
+        for (const element of list)
+            element.addEventListener('click', function (e) {
+                element.classList.toggle('open');
+            });
+    });</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="./Alphin_Roy_files/js.js"></script>
 </body>
 </html>
