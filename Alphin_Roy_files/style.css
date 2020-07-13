@@ -527,12 +527,15 @@ main .right-side {
     width: 100%;
   }
   .phonenumber a{
+    
     color: rgba(255, 255, 255, 0.842);
     /* font-size: 15px; */
   }
-  .phonenumber a h4{
+  .phonenumber a 
+    {
     font-weight: 200;
     font-size: 13px;
+    
   }
   .copyrightabove{
     /* position: absolute; */
