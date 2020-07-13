@@ -873,6 +873,9 @@ main .right-side {
     .leftfooter{
       margin: 50px auto;
     }
+    .sitemap{
+      margin: 30px auto;
+    }
   }
   .ar-below-line{
     visibility: hidden;
@@ -888,6 +891,7 @@ main .right-side {
             width: 100%;
             text-align: center;
             z-index: 9999; 
+            animation: 2s move1;
     }
     .logo-nav-display{
       align-items: center;
@@ -896,10 +900,14 @@ main .right-side {
              top: 10%;
             width: 100%;
             text-align: center;
-            z-index: 9999; 
+            z-index: 9999;
+            /* opacity: 0; */
+            /* animation: 6s move1;  */
     }
+    
     .logo-nav-display.navopen{
       visibility: visible;
+      animation: 3s move1; 
     }
     .burger-display{
       
@@ -918,7 +926,7 @@ main .right-side {
       bottom: 0;
       right: 0;
       left: 0;
-      background: rgba(0, 0, 0, 0.6);
+      background: rgba(0, 0, 0, 0.932);
       z-index: 1111;
     }
      .topnav{
@@ -941,10 +949,47 @@ main .right-side {
             font-size: 18px;
             display: inline-block;
             margin-top:60px;
-            transition: all 0.5s ease;
-            transition-delay: 3s;
+           
             
     } 
+    .topnav.navopen a {
+      animation: move 1s;
+      -webkit-animation: move 1s;
+    }
+    
+    @keyframes move {
+      from {
+        margin-top: 100%;
+        opacity: 0.1;
+        /* width: 300%;  */
+      }
+    
+      to {
+        opacity: 1;
+        margin-top: 60px;
+        /* width: 100%; */
+      }
+    }
+    @keyframes move1{
+      from{
+        opacity: 0;
+      }
+      to{
+        opacity: 1;
+      }
+    }
+                
+    @-webkit-keyframes move {
+      from {
+        margin-left: 100%;
+        width: 300%; 
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
     
     
     @-webkit-keyframes slide {
@@ -954,16 +999,5 @@ main .right-side {
     @keyframes slide {
       100% { left: 0; }
     }
-    .menu-overlay {
-      transition: margin 600ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
-      display: none;
-      position: fixed;
-      height: 100%;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      background: rgba(0, 0, 0, 0.911);
-      z-index: 1111;
-    }
+    
   }

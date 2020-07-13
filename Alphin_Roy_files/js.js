@@ -6,7 +6,7 @@ var x = 'True';
         
         if ($(this).hasClass('active')){
             $(this).removeClass('active');
-            $('.menu-overlay').fadeToggle( 'fast', 'linear' );
+            $('.menu-overlay').fadeToggle( 'slow', 'linear' );
             $('.topnav').toggleClass('navopen')
             $('.ar-below-line').toggleClass('navopen')
             $('.logo-nav-display').toggleClass('navopen')
@@ -15,7 +15,7 @@ var x = 'True';
         } else {
             
             $(this).addClass('active');
-            $('.menu-overlay').fadeToggle( 'fast', 'linear' );
+            $('.menu-overlay').fadeToggle( 'slow', 'linear' );
             $('.topnav').toggleClass('navopen')
             $('.ar-below-line').toggleClass('navopen')
             $('.logo-nav-display').toggleClass('navopen')
@@ -56,22 +56,22 @@ var x = 'True';
     })
 })();
 
-                var swiper = new Swiper('.swiper-container', {
-                  effect: 'coverflow',
-                  grabCursor: true,
-                  centeredSlides: true,
-                  slidesPerView: 'auto',
-                  coverflowEffect: {
-                    rotate: 50,
-                    stretch: 0,
-                    depth: 100,
-                    modifier: 1,
-                    slideShadows : true,
-                  },
-                  pagination: {
-                    el: '.swiper-pagination',
-                  },
-                });
+                // var swiper = new Swiper('.swiper-container', {
+                //   effect: 'coverflow',
+                //   grabCursor: true,
+                //   centeredSlides: true,
+                //   slidesPerView: 'auto',
+                //   coverflowEffect: {
+                //     rotate: 50,
+                //     stretch: 0,
+                //     depth: 100,
+                //     modifier: 1,
+                //     slideShadows : true,
+                //   },
+                //   pagination: {
+                //     el: '.swiper-pagination',
+                //   },
+                // });
                 // mybutton = document.getElementById("myBtn");
 
                 // // When the user scrolls down 20px from the top of the document, show the button
