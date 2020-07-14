@@ -843,6 +843,76 @@ main .right-side {
       display: none;
     }
   }
+  .about-me{
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    color: #03031b;
+  }
+
+  .about-me-left-side{
+
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    background: #1ec4c4;
+    -webkit-box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
+    
+        height: 100%;
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    -ms-grid-rows: 1fr ;
+    grid-template-rows: 5fr 1fr 5fr ;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-me-left-side h2{
+    grid-row: 2;
+    font-family: 'Merienda One', cursive;
+    color: white;
+    font-weight: 500;
+    font-size: 3em;
+    /* #30CFD0 0%, #330867 */
+     
+  }
+  .about-me-right-side{
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
+    display: -ms-grid;
+    display: grid;
+      
+   
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 3fr 4fr 2fr 2fr 1fr;
+        grid-template-rows:1fr 4fr 0fr 1fr 1fr 1fr; 
+         -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+  }
+  .about-me-right-side .writing-about-me p{
+    margin: 0 100px;
+font-family: 'Tinos', serif;
+text-align: justify;
+line-height: 30px;
+
+
+  }
+  .bottom.color1{
+    background-color:#dc2743 ;
+  }
   @media screen and (max-width:1000px){
     main {
       -webkit-box-orient: vertical;
@@ -879,6 +949,27 @@ main .right-side {
     .sitemap{
       margin: 30px auto;
       margin-top: 0px;
+    }
+    .about-me {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      height: auto;
+    }
+    .about-me-left-side{
+      height: auto;
+      grid-template-rows: 1fr;
+    }
+    .about-me-right-side{
+      height: 100vh;
+      grid-template-rows: 0.5fr 2.5fr 0.1fr 0.1fr 0.1fr;
+    }
+    .about-me-left-side h2{
+      
+      font-size: 1.5em;
+      /* #30CFD0 0%, #330867 */
+       
     }
   }
   .ar-below-line{
@@ -1005,73 +1096,4 @@ main .right-side {
     }
     
   }
-  .about-me{
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    color: #03031b;
-  }
-
-  .about-me-left-side{
-
-    height: 100vh;
-    position: relative;
-    z-index: 1;
-    background: #1ec4c4;
-    -webkit-box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
-            box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
-    
-        height: 100%;
-    -ms-flex-preferred-size: 40%;
-        flex-basis: 40%;
-    -ms-grid-rows: 1fr ;
-    grid-template-rows: 5fr 1fr 5fr ;
-    display: -ms-grid;
-    display: grid;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .about-me-left-side h2{
-    grid-row: 2;
-    font-family: 'Merienda One', cursive;
-    color: white;
-    font-weight: 500;
-    font-size: 3em;
-    /* #30CFD0 0%, #330867 */
-     
-  }
-  .about-me-right-side{
-    -ms-flex-preferred-size: 60%;
-        flex-basis: 60%;
-    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
-            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
-    display: -ms-grid;
-    display: grid;
-      
-   
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: 3fr 4fr 2fr 2fr 1fr;
-        grid-template-rows:1fr 4fr 0fr 1fr 1fr 1fr; 
-         -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-
-  }
-  .about-me-right-side .writing-about-me p{
-    margin: 0 100px;
-font-family: 'Tinos', serif;
-text-align: justify;
-line-height: 30px;
-
-
-  }
-  .bottom.color1{
-    background-color:#dc2743 ;
-  }
+  
