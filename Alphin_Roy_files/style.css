@@ -959,14 +959,14 @@ line-height: 30px;
     }
     .about-me-left-side{
       height: auto;
-      grid-template-rows: 1fr;
+      grid-template-rows: 1fr 3fr 1fr;
     }
     .about-me-right-side{
       height: 100vh;
       grid-template-rows: 0.5fr 2.5fr 0.1fr 0.1fr 0.1fr;
     }
     .about-me-left-side h2{
-      
+      grid-row: 2;
       font-size: 1.5em;
       /* #30CFD0 0%, #330867 */
        
