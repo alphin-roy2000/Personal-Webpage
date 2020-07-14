@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+/* font-family: 'Tinos', serif; */
 * {
     margin: 0;
     padding: 0;
@@ -297,6 +299,7 @@ nav ul li a:hover::after{
       justify-self: center;
              }
             .quote{
+              text-align: center;
                 color: white;
                 font-family: 'Alegreya', serif;
                 font-weight: 200;
@@ -875,6 +878,7 @@ main .right-side {
     }
     .sitemap{
       margin: 30px auto;
+      margin-top: 0px;
     }
   }
   .ar-below-line{
@@ -891,7 +895,7 @@ main .right-side {
             width: 100%;
             text-align: center;
             z-index: 9999; 
-            animation: 2s move1;
+            animation: 3s move1;
     }
     .logo-nav-display{
       align-items: center;
@@ -1000,4 +1004,74 @@ main .right-side {
       100% { left: 0; }
     }
     
+  }
+  .about-me{
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    color: #03031b;
+  }
+
+  .about-me-left-side{
+
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+    background: #1ec4c4;
+    -webkit-box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
+    
+        height: 100%;
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    -ms-grid-rows: 1fr ;
+    grid-template-rows: 5fr 1fr 5fr ;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-me-left-side h2{
+    grid-row: 2;
+    font-family: 'Merienda One', cursive;
+    color: white;
+    font-weight: 500;
+    font-size: 3em;
+    /* #30CFD0 0%, #330867 */
+     
+  }
+  .about-me-right-side{
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
+    display: -ms-grid;
+    display: grid;
+      
+   
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 3fr 4fr 2fr 2fr 1fr;
+        grid-template-rows:1fr 4fr 0fr 1fr 1fr 1fr; 
+         -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+  }
+  .about-me-right-side .writing-about-me p{
+    margin: 0 100px;
+font-family: 'Tinos', serif;
+text-align: justify;
+line-height: 30px;
+
+
+  }
+  .bottom.color1{
+    background-color:#dc2743 ;
   }
