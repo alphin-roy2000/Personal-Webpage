@@ -31,6 +31,9 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     background-color: #F5F5F5;
   }
+  body{
+    min-width: 256px;
+  }
   /* body::-webkit-scrollbar-track
   {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -53,6 +56,7 @@
   } */
   main {
     height: 100vh;
+    min-height: 618px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -690,13 +694,13 @@ main .right-side {
   .resume{
     grid-row: 5/6;
     margin: 15px auto;
-    display: flex;
+    /* display: flex; */
     /* -webkit-box-pack: space-evenly;
           -ms-flex-pack: space-evenly;
     justify-content: space-evenly; */
   }
   .resume a {
-    margin: 20px;
+    margin: 10px 20px;
   }
   .button {
       display: inline-block;
@@ -911,7 +915,7 @@ line-height: 30px;
 
   }
   .bottom.color1{
-    background-color:#dc2743 ;
+    background-color:#14549e ;
   }
   @media screen and (max-width:1000px){
     main {
@@ -1096,4 +1100,57 @@ line-height: 30px;
     }
     
   }
-  
+  .button .top .label.l1{
+    font-size: 20px;
+    font-weight: 200;
+  }
+  .checkout h3{
+    font-size: 35px;
+    font-family: 'Alegreya', serif;
+    font-weight: 200;
+    color: #098686;
+  }
+  .navigate-blog-portfolio{
+    /* height: 100vh; */
+    /* min-height: 618px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    color: #03031b;
+  }
+  .checkout{
+    margin:0 25px;
+    grid-row: 2;
+  }
+  .button-nav{
+    margin: auto;
+    grid-row: 4;
+  }
+  .button-nav a{
+    margin: 10px 30px;
+  }
+  .navigate-blog-portfolio-left p{
+     grid-row: 3;
+     margin: 0 25px;
+     text-align: justify;
+  }
+  .navigate-blog-portfolio-left{
+    /* height: 100vh; */
+    position: relative;
+    z-index: 1;
+    /* background: #121212; */
+    /* -webkit-box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23); */
+    
+        /* height: 100%; */
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
+    display: -ms-grid;
+    display: grid;
+  }
