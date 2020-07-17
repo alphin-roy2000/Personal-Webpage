@@ -68,6 +68,7 @@
   }
   main .left-side {
     height: 100vh;
+    min-height: 550px;
     position: relative;
     z-index: 1;
     background: #121212;
@@ -415,7 +416,7 @@ main .right-side {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 3fr 4fr 2fr 2fr 1fr;
-        grid-template-rows:1fr 4fr 0fr 1fr 1fr 1fr; 
+        grid-template-rows:1fr 3fr 0fr 1fr 1fr 1fr; 
          -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -863,7 +864,6 @@ main .right-side {
 
     height: 100vh;
     position: relative;
-    z-index: 1;
     background: #1ec4c4;
     -webkit-box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
             box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
@@ -982,7 +982,7 @@ line-height: 30px;
     }
     .sitemap{
       margin: 30px auto;
-      
+      margin-top: 0px;
     }
   }
   @media screen and (max-width:440px){
@@ -1147,7 +1147,6 @@ line-height: 30px;
   .navigate-blog-portfolio-left{
     /* height: 100vh; */
     position: relative;
-    z-index: 1;
     /* background: #121212; */
     /* -webkit-box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
             box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23); */
