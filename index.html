@@ -8,12 +8,13 @@
     <link rel="icon" type="image/png" href="./Alphin_Roy_files/titleicon.png">
     <link rel="stylesheet" href="./Alphin_Roy_files/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="./Alphin_Roy_files/aos.css">
 
 
 
 </head>
 
-<body>
+<body data-aos-easing="ease" data-aos-duration="500" data-aos-delay="0">
     <div class="site-main">
         <!----------------------------------------------- Top Main ------------------------------------------------------>
         <main>
@@ -69,7 +70,7 @@
 
             </div>
             <div class="right-side">
-                <div class="mypic"><img src="./Alphin_Roy_files/mine.jpg" alt=""></div>
+                <div class="mypic" ><img class="aos-init aos-animate" data-aos="zoom-in" src="./Alphin_Roy_files/mine.jpg" alt=""></div>
                 <div class="bio">
                     <h3>BIO</h3>
                     <p>Just a Techy.</p>
@@ -199,6 +200,7 @@
             <div class="navigate-blog-portfolio-right"></div>
         </section>
         <section class="navigate-photography-page"></section>
+        
         <!----------------------------------------------- Footer ------------------------------------------------------>
 
         <footer class="contactclss" id="contact">
@@ -272,6 +274,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 
     </div>
+    
     <script>document.addEventListener("DOMContentLoaded", function (event) {
             const list = document.getElementsByClassName('burger')
 
@@ -282,6 +285,13 @@
         });</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="./Alphin_Roy_files/js.js"></script>
+    <script src="./Alphin_Roy_files/aos.js.download"></script>
+    <script>
+        AOS.init({
+        offset: 100,
+        duration: 500
+    });
+    </script>
 </body>
 
 </html>
