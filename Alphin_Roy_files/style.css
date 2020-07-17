@@ -12,22 +12,22 @@
     text-decoration: none;
     list-style: none;
   }
-  html {
+  body {
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: #bca876 #2b2928;
   }
   
-  html::-webkit-scrollbar {
+  body::-webkit-scrollbar {
     width: 8px;
   }
   
-  html::-webkit-scrollbar-thumb {
+  body::-webkit-scrollbar-thumb {
     background-color: #0ae;
     border-radius: 6px;
   }
   
-  html::-webkit-scrollbar-track {
+  body::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     background-color: #F5F5F5;
   }
@@ -340,7 +340,7 @@ nav ul li a:hover::after{
               
               }
               .navtobottomarrow{
-               
+                
                  position: relative;
                  grid-row: 5/6;
               }
@@ -1159,3 +1159,4 @@ line-height: 30px;
     display: -ms-grid;
     display: grid;
   }
+ 
