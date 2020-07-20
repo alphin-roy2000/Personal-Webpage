@@ -82,8 +82,8 @@
         height: 100%;
     -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
-    -ms-grid-rows: 1fr 2.5fr 4.5fr 2fr 1fr 1fr;
-    grid-template-rows: 1fr 2.5fr 4.5fr 2fr 1fr 1fr;
+    -ms-grid-rows: 1fr 2.5fr 3fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2.5fr 3fr 1fr 1fr 1fr;
     display: -ms-grid;
     display: grid;
    
@@ -853,7 +853,7 @@ main .right-side {
     }
   }
   .about-me{
-    height: 100vh;
+    height: 80vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -866,13 +866,13 @@ main .right-side {
 
   .about-me-left-side{
 
-    height: 100vh;
+    height: auto;
     position: relative;
     background: #1ec4c4;
     -webkit-box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
             box-shadow: 3px 1px 6px rgba(0, 0, 0, 0.16), 3px 1px 6px rgba(0, 0, 0, 0.23);
     
-        height: 100%;
+       
     -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
     -ms-grid-rows: 1fr ;
@@ -899,26 +899,33 @@ main .right-side {
             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
     display: -ms-grid;
     display: grid;
-      
-   
+      height: auto;
+/*    
     -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; */
     -ms-grid-rows: 3fr 4fr 2fr 2fr 1fr;
-        grid-template-rows:1fr 4fr 0fr 1fr 1fr 1fr; 
+        grid-template-rows:0.25fr 0.25fr 1fr 0.25fr 0.25fr ; 
          -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
 
   }
-  .about-me-right-side .writing-about-me h3{
+  .top-about-me{
+    grid-row: 2;
+  }
+  .about-me-right-side .top-about-me h3{
+    
     text-align: center;
-    margin: 0 10px;
-    margin-bottom: 40px;
+    
     
     font-weight: 700;font-family: 'Merienda One', cursive;
 
   }
+  .writing-about-me{
+    grid-row: 3;
+  }
   .about-me-right-side .writing-about-me p{
+    
     margin: 0 50px;
 /* font-family: 'Tinos', serif; */
 text-align: justify;
@@ -929,6 +936,20 @@ line-height: 30px;
   .bottom.color1{
     background-color:#3dcc50e7 ;
   }
+  .end-about-me{
+    grid-row: 5;
+    margin: auto;
+    display: flex;
+  }
+  .end-about-me h4{
+    margin: auto 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    color: rgb(43, 174, 226);
+  }
+ .end-about-me .button.nav-link.about{
+   margin: auto 10px;
+ }
   @media screen and (max-width:1000px){
     .socialmedia1{
       display: none;
@@ -976,7 +997,7 @@ line-height: 30px;
     }
     .about-me-right-side{
       height: auto;
-      grid-template-rows: 0.5fr 4fr 0.25fr;
+      grid-template-rows: 0.2fr 0.5fr 3fr 0.4fr 0.5fr 0.2fr;
     }
     .about-me-left-side h2{
       grid-row: 2;
@@ -1193,4 +1214,13 @@ line-height: 30px;
   .contact-me p i{
     color: #30CFD0;
     /* font-weight: 600; */
+  }
+  @media screen and (max-width:851px){
+    .navigate-blog-portfolio-left{
+      -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+    .navigate-blog-portfolio-right{
+      display: none;
+    }
   }
