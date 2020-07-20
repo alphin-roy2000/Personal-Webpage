@@ -853,7 +853,7 @@ main .right-side {
     }
   }
   .about-me{
-    height: 80vh;
+    height: 70vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -899,12 +899,12 @@ main .right-side {
             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.16), 0 1px 6px rgba(0, 0, 0, 0.23);
     display: -ms-grid;
     display: grid;
-      height: auto;
+      /* height: auto; */
 /*    
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr; */
     -ms-grid-rows: 3fr 4fr 2fr 2fr 1fr;
-        grid-template-rows:0.25fr 0.25fr 1fr 0.25fr 0.25fr ; 
+        grid-template-rows:0.09fr 0.25fr 0.25fr 0.05fr 0.25fr ; 
          -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -944,7 +944,7 @@ line-height: 30px;
   .end-about-me h4{
     margin: auto 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     color: rgb(43, 174, 226);
   }
  .end-about-me .button.nav-link.about{
@@ -997,7 +997,7 @@ line-height: 30px;
     }
     .about-me-right-side{
       height: auto;
-      grid-template-rows: 0.2fr 0.5fr 3fr 0.4fr 0.5fr 0.2fr;
+      grid-template-rows: 0.4fr 0.5fr 3fr 0.4fr 0.5fr 0.2fr;
     }
     .about-me-left-side h2{
       grid-row: 2;
