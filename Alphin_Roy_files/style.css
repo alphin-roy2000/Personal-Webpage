@@ -942,12 +942,12 @@ line-height: 30px;
     }
     main .left-side {
       height: 100vh;
-      -ms-grid-rows: 1fr 2.5fr 4.5fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2.5fr 4.5fr 1fr 1fr 1fr;
+      -ms-grid-rows: 1fr 2.5fr 4.5fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2.5fr 4.5fr 1fr 1fr 1fr 1fr;
     }
     main .right-side {
       height: auto;
-      grid-template-rows: 0.5fr 2.5fr 0.1fr 0.1fr 0.1fr;
+      grid-template-rows: 0.5fr 2.5fr 0.1fr 0.1fr 0.1fr ;
     }
     .mypic{
       grid-row: 2;
