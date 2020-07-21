@@ -295,7 +295,7 @@
 .navigate-photography .options .option.active .label .info > div {
 	left: 0px;
 	opacity: 1;
-}
+} */
 
 .navigate-photography .options .option:not(.active) {
 	flex-grow: 1;
@@ -315,8 +315,8 @@
 .navigate-photography .options .option:not(.active) .label .info > div {
 	left: 20px;
 	opacity: 0;
-} */
-
+}
+/*  */
 .navigate-photography .options .option .shadow {
 	position: absolute;
 	bottom: 0px;
