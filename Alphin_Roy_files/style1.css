@@ -183,7 +183,7 @@
 	max-width: 900px;
 	width: calc(100% - 100px);
    height: 400px;
-   margin: 50px 20px;
+   margin: 50px 3px;
 }
 
 @media screen and (max-width: 718px) {
