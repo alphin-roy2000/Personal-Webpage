@@ -276,7 +276,7 @@
 	transform: scale(1);
 	max-width: 600px;
 	/* margin: 0px; */
-	border-radius: 40px;
+	/* border-radius: 40px; */
 	background-size: auto 100%;
         /*&:active {
                transform:scale(0.9);
@@ -394,11 +394,11 @@
 	
 }
 .navigate-photography .options .option.active {
-	flex-grow: 1;
+	flex-grow: 4;
 	transform: scale(1);
 	max-height: 600px;
 	/* margin: 0px; */
-	border-radius: 40px;
+	/* border-radius: 40px; */
    /* background-size:  100% auto; */
    background-size: cover
         /*&:active {
