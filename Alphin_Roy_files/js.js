@@ -90,3 +90,8 @@ var x = 'True';
                 //   document.body.scrollTop = 709; // For Safari
                 //   document.documentElement.scrollTop = 709; // For Chrome, Firefox, IE and Opera
                 // }
+                $(".option").click(function(){
+                    $(".option").removeClass("active");
+                    $(this).addClass("active");
+                    
+                 });
