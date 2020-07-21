@@ -315,7 +315,7 @@
 .navigate-photography .options .option:not(.active) .label .info > div {
 	left: 20px;
 	opacity: 0;
-}
+} */
 
 .navigate-photography .options .option .shadow {
 	position: absolute;
@@ -368,7 +368,7 @@
 
 .navigate-photography .options .option .label .info .sub {
 	transition-delay: .1s;
-} */
+}
 
 /* sdfsdfsdfsdfsdf */
 @media screen and (max-width:740px){
