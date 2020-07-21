@@ -159,7 +159,7 @@
  } */
  .navigate-photography {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
@@ -182,7 +182,8 @@
 	min-width: 600px;
 	max-width: 900px;
 	width: calc(100% - 100px);
-	height: 400px;
+   height: 400px;
+   margin: 50px 20px;
 }
 
 @media screen and (max-width: 718px) {
@@ -190,9 +191,9 @@
 		min-width: 520px;
 	}
 
-	.navigate-photography .options .option:nth-child(5) {
+	/* .navigate-photography .options .option:nth-child(5) {
 		display: none;
-	}
+	} */
 }
 
 @media screen and (max-width: 638px) {
@@ -200,9 +201,9 @@
 		min-width: 440px;
 	}
 
-	.navigate-photography .options .option:nth-child(4) {
+	/* .navigate-photography .options .option:nth-child(4) {
 		display: none;
-	}
+	} */
 }
 
 @media screen and (max-width: 558px) {
@@ -210,9 +211,9 @@
 		min-width: 360px;
 	}
 
-	.navigate-photography .options .option:nth-child(3) {
+	/* .navigate-photography .options .option:nth-child(3) {
 		display: none;
-	}
+	} */
 }
 
 @media screen and (max-width: 478px) {
@@ -220,9 +221,9 @@
 		min-width: 280px;
 	}
 
-	.navigate-photography .options .option:nth-child(2) {
+	/* .navigate-photography .options .option:nth-child(2) {
 		display: none;
-	}
+	} */
 }
 
 .navigate-photography .options .option {
@@ -359,3 +360,56 @@
 .navigate-photography .options .option .label .info .sub {
 	transition-delay: .1s;
 }
+
+/* sdfsdfsdfsdfsdf */
+@media screen and (max-width:740px){
+   .navigate-photography {
+      height: auto;
+      padding: 20px;
+   }
+   .navigate-photography .options {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	overflow: hidden;
+	min-height: 600px;
+	max-height: 900px;
+	height:  calc(100% - 100px);
+	width: 400px;
+}
+.navigate-photography .options .option {
+	
+   min-height: 60px;
+   /* background-repeat: no-repeat; */
+   background-size:  120% auto;
+	
+}
+.navigate-photography .options .option.active {
+	flex-grow: 10000;
+	transform: scale(1);
+	max-height: 600px;
+	margin: 0px;
+	border-radius: 40px;
+   /* background-size:  100% auto; */
+   background-size: cover
+        /*&:active {
+               transform:scale(0.9);
+            }*/;
+}
+}
+.navigate-photography-button{
+   display: inline-flex;
+}
+.navigate-photography-button h4{
+   margin: auto 20px;
+   color: rgba(69, 57, 241, 0.863);
+   /* text-align: center; */
+   
+   
+}
+.navigate-photography-button a{
+   margin: auto;
+   
+   
+}
+

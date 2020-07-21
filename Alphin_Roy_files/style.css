@@ -943,8 +943,8 @@ line-height: 30px;
   }
   .end-about-me h4{
     margin: auto 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 400;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400; */
     color: rgb(43, 174, 226);
   }
  .end-about-me .button.nav-link.about{
@@ -1223,4 +1223,7 @@ line-height: 30px;
     .navigate-blog-portfolio-right{
       display: none;
     }
+  }
+  .bottom.color2{
+    background-color: rgb(69, 57, 241);
   }
