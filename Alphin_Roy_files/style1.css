@@ -282,10 +282,10 @@
                transform:scale(0.9);
             }*/;
 }
-
-/* .navigate-photography .options .option.active .shadow {
+@media screen and (min-width:740px){
+.navigate-photography .options .option.active .shadow {
 	box-shadow: inset 0 -120px 120px -120px black, inset 0 -120px 120px -100px black;
-} */
+}}
 
 .navigate-photography .options .option.active .label {
 	bottom: 20px;
