@@ -179,7 +179,7 @@
 	flex-direction: row;
 	align-items: stretch;
 	overflow: hidden;
-	min-width: 600px;
+	min-width: 500px;
 	max-width: 900px;
 	width: calc(100% - 100px);
    height: 400px;
@@ -394,7 +394,7 @@
 	
 }
 .navigate-photography .options .option.active {
-	flex-grow: 9;
+	flex-grow: 3;
 	transform: scale(1);
 	max-height: 600px;
 	/* margin: 0px; */
