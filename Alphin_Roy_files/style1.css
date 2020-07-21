@@ -394,7 +394,7 @@
 	
 }
 .navigate-photography .options .option.active {
-	flex-grow: 3;
+	flex-grow: 1;
 	transform: scale(1);
 	max-height: 600px;
 	/* margin: 0px; */
