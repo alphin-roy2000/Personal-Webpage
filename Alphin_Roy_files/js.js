@@ -24,6 +24,25 @@ var x = 'True';
         }
     })
 })();
+var x = 'True';
+(function() {
+    'use strict';
+    $('.topnav li a').click(function (e) {
+        
+        
+        if ($('.burger').hasClass('open')){
+            $('.burger').removeClass('open');
+            $('.burger').removeClass('active');
+            $('.menu-overlay').fadeToggle( 'slow', 'linear' );
+            $('.topnav').toggleClass('navopen')
+            $('.ar-below-line').toggleClass('navopen')
+            $('.logo-nav-display').toggleClass('navopen')
+            $('.burger-display').toggleClass('navopen')
+            $('.hamburger-menu-wrapper').toggleClass('bounce-effect')
+           ;
+        }
+    })
+})();
 // $(window).resize(function(){
 // 	if ($(window).width() >= 1153){	
 // 		if ($('.burger').hasClass('active')){

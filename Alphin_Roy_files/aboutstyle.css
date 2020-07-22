@@ -507,6 +507,10 @@ nav ul li a:hover::after{
     
     
   }
+  .ar-below-line{
+    visibility: hidden;
+    
+  }
   @media screen and (max-width:850px){
     .ar-below-line.navopen{
         visibility: visible;
@@ -635,7 +639,7 @@ nav ul li a:hover::after{
   }
   .center-text h3{
     font-family: 'Alegreya';
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 200;
 
   }
