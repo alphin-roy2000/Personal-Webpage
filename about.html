@@ -4,8 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AR-About me</title>
+    <link rel="icon" type="image/png" href="./Alphin_Roy_files/titleicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="./Alphin_Roy_files/aboutstyle.css">
+    <meta name="theme-color" content="#234fad">
+
 </head>
 <body>
-    
+    <div class="site-main">
+        <main>
+            <div class="main-left-side">
+                <nav class="left-nav">
+                    <div class="logo"><a href=""><img src="./Alphin_Roy_files/logo.svg" width="50px" alt=""></a></div>
+                    <div class="burger-display">
+                        <div class="burger burger-squeeze">
+                            <div class="burger-lines"></div>
+                        </div>
+                    </div>
+                    <div class="menu-overlay"></div>
+
+                    <div class="logo-nav-display"><img src="./Alphin_Roy_files/logo.svg" width="50px" alt=""></div>
+                    <hr class="ar-below-line">
+                    <ul class="topnav">
+
+                        <li><a class="active" href="">Home</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        
+                    </ul>
+                </nav>
+                <div class="center-text"><h3>About Me</h3></div>
+                
+            </div>
+            <!-- <div class="main-right-side"></div> -->
+        </main>
+        <footer class="contactclss" id="contact">
+            <div class="top">
+                <div class="leftfooter">
+                    <div class="lftop">
+                        <div class="footerimage">
+                            <div class="arimage"><a href=""><img src="./Alphin_Roy_files/logo.svg" width="50px"
+                                        alt=""></a>
+                            </div>
+                            <div class="firstname">
+                                <h3>Alphin Roy</h3>
+                            </div>
+                        </div>
+                        <div class="phonenumber"><a href="tel:+91 9946839005">
+                                <i class="fa fa-phone"></i> +91 9946839005
+                            </a></div>
+                    </div>
+
+                    <div class="mysocials" id="mysocial">
+                        <h3>Follow me:</h3>
+                        <ul>
+                            <li><a href="https://www.facebook.com/alphin.roy" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/alphinroy" target="_blank" rel="noopener noreferrer"><i
+                                        class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/alphin_roy2000/" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/alphin-roy-a2353172/" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://github.com/alphin-roy2000" target="_blank" rel="noopener noreferrer"><i
+                                        class="fab fa-github"></i></a></li>
+                            <li><a href="https://www.snapchat.com/add/walking_toddler" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-snapchat"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="line">
+                    <div class="outer">
+                        <div class="inner"></div>
+                    </div>
+                </div>
+                <div class="sitemap">
+                    <h2>Explore</h2>
+                    <ul>
+                        <li><a class="active" href="">Home</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                        <li><a href="">Photography Page</a></li>
+                    </ul>
+                </div>
+                <div class="rightfooter">
+
+                </div>
+            </div>
+            <div class="copyrightabove">
+                <hr class="copyrightline">
+            </div>
+            <div class="copyright">
+                <h5>© 2020 <a href="https://github.com/alphin-roy2000" target="_blank" rel="noopener noreferrer">Alphin
+                        Roy</a>. Made with <i class="fa fa-heart" aria-hidden="true"></i> using HTML CSS JS</h5>
+            </div>
+        </footer>
+    </div>
+    <script>document.addEventListener("DOMContentLoaded", function (event) {
+        const list = document.getElementsByClassName('burger')
+
+        for (const element of list)
+            element.addEventListener('click', function (e) {
+                element.classList.toggle('open');
+            });
+    });</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="./Alphin_Roy_files/js.js"></script>
 </body>
 </html>
