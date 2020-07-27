@@ -1,8 +1,8 @@
 # Personal-Webpage
--aboutme
--contact
+- aboutme
+- contact
 
 
-##blog
-##portfolio
-##photography page
+## blog
+## portfolio
+## photography page
