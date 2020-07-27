@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,13 @@
     <meta name="theme-color" content="#234fad">
 
 </head>
+
 <body>
     <div class="site-main">
         <main>
             <div class="main-left-side">
                 <nav class="left-nav">
-                    <div class="logo"><a href=""><img src="./Alphin_Roy_files/logo.svg" width="50px" alt=""></a></div>
+                    <div class="logo"><a href="./index.html"><img src="./Alphin_Roy_files/logo.svg" width="50px" alt=""></a></div>
                     <div class="burger-display">
                         <div class="burger burger-squeeze">
                             <div class="burger-lines"></div>
@@ -27,15 +29,17 @@
                     <hr class="ar-below-line">
                     <ul class="topnav">
 
-                        <li><a class="active" href="">Home</a></li>
+                        <li><a class="active" href="./index.html">Home</a></li>
                         <li><a href="./blog.html">Blog</a></li>
                         <li><a href="./portfolio.html">Portfolio</a></li>
                         <li><a href="#contact">Contact Me</a></li>
-                        
+
                     </ul>
                 </nav>
-                <div class="center-text"><h3>Blog</h3></div>
-                
+                <div class="center-text">
+                    <h3>Blog</h3>
+                </div>
+
             </div>
             <!-- <div class="main-right-side"></div> -->
         </main>
@@ -83,13 +87,13 @@
                 <div class="sitemap">
                     <h2>Explore</h2>
                     <ul>
-                        <li><a class="active" href="">Home</a></li>
+                        <li><a class="active" href="./index.html">Home</a></li>
                         <li><a href="./blog.html">Blog</a></li>
                         <li><a href="./portfolio.html">Portfolio</a></li>
-                        <li><a href="#about-me">About me</a></li>
+                        <li><a href="./index.html#about-me">About me</a></li>
                         <li><a href="#contact">Contact</a></li>
 
-                        <li><a href="">Photography Page</a></li>
+                        <li><a href="https://alphin-roy2000.github.io/AR-Photography/">Photography Page</a></li>
                     </ul>
                 </div>
                 <div class="rightfooter">
@@ -106,14 +110,15 @@
         </footer>
     </div>
     <script>document.addEventListener("DOMContentLoaded", function (event) {
-        const list = document.getElementsByClassName('burger')
+            const list = document.getElementsByClassName('burger')
 
-        for (const element of list)
-            element.addEventListener('click', function (e) {
-                element.classList.toggle('open');
-            });
-    });</script>
+            for (const element of list)
+                element.addEventListener('click', function (e) {
+                    element.classList.toggle('open');
+                });
+        });</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="./Alphin_Roy_files/js.js"></script>
 </body>
+
 </html>
